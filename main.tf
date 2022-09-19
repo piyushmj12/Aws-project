@@ -129,7 +129,7 @@ resource "aws_lambda_function" "terraform_lambda_func" {
  depends_on                     = [aws_iam_role_policy_attachment.attach_iam_policy_to_iam_role]
 }
 #Uploadind tfstate file to S3 bucket
-terraform {
+/*terraform {
   backend "s3"{
     bucket = "piyushyogi121998"
     key = "mystatefile/terraform.tfstate"
@@ -137,6 +137,7 @@ terraform {
 
   }
 }
+*/
 
 
 
