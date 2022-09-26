@@ -1,6 +1,6 @@
 variable "region" {
   description = "The AWS region we want this bucket to live in."
-  default     = "ap-south-1"
+  default     = "us-east-1"
 }
 
 variable "bucket" {
@@ -17,3 +17,9 @@ variable "function_name" {
     description = "The name of the lambda function"
     default = "Piyush_lambda_function"
 }
+
+variable "name_of_role" {
+    description = "The name of role of lambda function"
+    default = "my_rolee1"
+}
+
