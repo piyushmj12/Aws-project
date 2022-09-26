@@ -6,7 +6,7 @@ provider "aws" {
 
 
 resource "aws_iam_role" "my_role" {
-  name = "my_rolee"
+  name = var.name_of_role
 
 
   assume_role_policy = jsonencode({
@@ -31,7 +31,7 @@ resource "aws_iam_role" "my_role" {
 # IAM policy for logging from a lambda
 
 resource "aws_iam_policy" "policy" {
-  name        = "my_policyy"
+  name        = var.name_of_policy
   path        = "/"
   description = "My policy"
 
