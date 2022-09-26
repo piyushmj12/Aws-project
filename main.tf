@@ -86,7 +86,7 @@ resource "aws_s3_bucket_policy" "bucket" {
                 "s3:GetObjectVersion"
             ],
             "Resource": [
-                "arn:aws:s3:::piyushyogi121998/*"
+                "arn:aws:s3:::${var.bucket}/*"
             ]
         }
     ]
