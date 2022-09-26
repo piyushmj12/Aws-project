@@ -20,11 +20,11 @@ variable "function_name" {
 
 variable "name_of_role" {
     description = "The name of role of lambda function"
-    default = "my_rolee1"
+    default = "my_rolee1111"
 }
 
 variable "name_of_policy" {
     description = "The name of policy of lambda function"
-    default = "my_policyy1"
+    default = "my_policyy1111"
 }  
 
