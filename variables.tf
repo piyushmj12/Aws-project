@@ -23,3 +23,8 @@ variable "name_of_role" {
     default = "my_rolee1"
 }
 
+variable "name_of_policy" {
+    description = "The name of policy of lambda function"
+    default = "my_policyy1"
+}  
+
